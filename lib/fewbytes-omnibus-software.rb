@@ -1,0 +1,1 @@
+require 'fewbytes-omnibus-software/version'
