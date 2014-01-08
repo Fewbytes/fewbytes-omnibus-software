@@ -6,10 +6,8 @@ Fewbytes omnibus software configurations
 Using
 -----
 
-Add this repository to you Gemfile:
-
-```ruby
-gem 'fewbytes-omnibus-software', :git => 'git@github.com:Fewbytes/fewbytes-omnibus-software.git', :branch => 'master'
-```
+Currently, omnibus specifically looks for the omnibus-software gem. So one would have to extract the software files
+included in this repostiroy to actually use them. I'm hoping to find a time to patch original omnibus-ruby package and
+add support for 3rd party Gems with software configurations.
 
 For more information on omnibus, see [omnibus-ruby](https://github.com/opscode/omnibus-ruby)
